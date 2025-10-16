@@ -1,0 +1,1 @@
+print:("Eu vou me matar")
