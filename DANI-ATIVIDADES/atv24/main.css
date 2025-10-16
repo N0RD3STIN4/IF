@@ -1,0 +1,68 @@
+body{
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1rem;
+}
+header{
+    background-color: rgb(61, 61, 114);
+    color: white;
+    padding: 1rem;
+    text-align: left;;
+}
+header h1 a{
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: left;
+    color: white;
+}   
+header ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+main{
+    margin: 2rem auto;
+    max-width: 100em;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    color: rgb(61, 61, 114);
+    font-size: 1.5rem;
+    text-align: center;
+}
+address{
+    text-align: center;
+    margin-top: 3rem;
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    font-style: normal;
+    background-color: rgb(61, 61, 114);
+    border-top: 1rem solid rgb(61, 61, 114);
+    border-bottom: 1rem solid rgb(61, 61, 114);
+}
+address a{
+    color: white;
+    text-decoration: underline;
+    text-align: left;
+    padding: 1rem;
+}
+a:hover{
+    color: rgb(88, 137, 222);
+}
+nav{
+    margin-top: 1rem;
+    text-align: left;
+}
+nav a{
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(61, 61, 114);
+    padding: 0.5rem 1rem;
+}

@@ -58,10 +58,9 @@ nav{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: center;
-    padding-top: 3em; 
 }
 nav>ol>li{
-    padding: 0.5em 0em;
+    padding: 1em 0em;
     font-weight: bold;
     text-align: left;
 }
@@ -105,7 +104,7 @@ section.organizacao{
     list-style-position: outside;
 }
 .organizacao>ol>li{
-    list-style-type:circle;
+    list-style-type: disc; /* deixa os circulos pretos */
     padding: 0.3em 0;
 }
 section.larissa{
@@ -134,7 +133,7 @@ section.inscricoes{
     padding: 0.9em;
 }
 section.inscricoes>form{
-    margin-top: 1.5em;
+    margin-top: .5em;
     display: flex; 
     flex-direction: column; 
     align-items: center;
@@ -149,29 +148,27 @@ input[type=text]{
     box-sizing: border-box;
     padding:1em;
     margin:6px 0;
-    border: 1px solid #ccc;
+    border: 0.1em solid #3b3b3b;
     border-radius: 1px;
 }
 input[type=checkbox]{
     margin: 10px;
-    /* CORREÇÃO: Alinhamento em flexbox */
-    align-self: flex-start;
+    align-self: flex-right;
 }
 section.inscricoes form label:has(input[type=checkbox]) {
-    /* CORREÇÃO: Alinhamento em flexbox */
-    align-self: flex-start;
-    margin-left: 5px;
+    align-self: flex-right;
+    margin-left: 0.5em;
 }
 input[type=submit]{
     background-color: #34495E;
-    border: none;
+    border: 0.5em solid #34495E;
     color: white;
     padding: 0.5em 3em;
     display: block;
-    margin: 8px auto;
+    margin: 20px auto;
     width: 100%;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 1px;
     cursor: pointer;
     font-weight: bold;
 }
